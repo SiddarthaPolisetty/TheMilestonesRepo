@@ -1,5 +1,5 @@
 //
-//  TMViewController.h
+//  TMHomeViewController.h
 //  TheMilestones
 //
 //  Created by Siddartha Polisetty on 5/17/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TMViewController : UIViewController
+@interface TMHomeViewController : UITableViewController
 
 
 @end

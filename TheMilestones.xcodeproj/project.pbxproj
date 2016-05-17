@@ -13,7 +13,7 @@
 		630A60A31CEBB2630074AF02 /* TMMilestoneStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A60A21CEBB2630074AF02 /* TMMilestoneStore.m */; };
 		63485D431CEB89F500CD7281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63485D421CEB89F500CD7281 /* main.m */; };
 		63485D461CEB89F500CD7281 /* TMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63485D451CEB89F500CD7281 /* TMAppDelegate.m */; };
-		63485D491CEB89F500CD7281 /* TMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63485D481CEB89F500CD7281 /* TMViewController.m */; };
+		63485D491CEB89F500CD7281 /* TMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63485D481CEB89F500CD7281 /* TMHomeViewController.m */; };
 		63485D4C1CEB89F500CD7281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63485D4A1CEB89F500CD7281 /* Main.storyboard */; };
 		63485D4E1CEB89F500CD7281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63485D4D1CEB89F500CD7281 /* Assets.xcassets */; };
 		63485D511CEB89F500CD7281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63485D4F1CEB89F500CD7281 /* LaunchScreen.storyboard */; };
@@ -42,8 +42,8 @@
 		63485D421CEB89F500CD7281 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63485D441CEB89F500CD7281 /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAppDelegate.h; sourceTree = "<group>"; };
 		63485D451CEB89F500CD7281 /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAppDelegate.m; sourceTree = "<group>"; };
-		63485D471CEB89F500CD7281 /* TMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMViewController.h; sourceTree = "<group>"; };
-		63485D481CEB89F500CD7281 /* TMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMViewController.m; sourceTree = "<group>"; };
+		63485D471CEB89F500CD7281 /* TMHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMHomeViewController.h; sourceTree = "<group>"; };
+		63485D481CEB89F500CD7281 /* TMHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMHomeViewController.m; sourceTree = "<group>"; };
 		63485D4B1CEB89F500CD7281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63485D4D1CEB89F500CD7281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63485D501CEB89F500CD7281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -109,8 +109,8 @@
 				630A60971CEBB1230074AF02 /* Model */,
 				63485D441CEB89F500CD7281 /* TMAppDelegate.h */,
 				63485D451CEB89F500CD7281 /* TMAppDelegate.m */,
-				63485D471CEB89F500CD7281 /* TMViewController.h */,
-				63485D481CEB89F500CD7281 /* TMViewController.m */,
+				63485D471CEB89F500CD7281 /* TMHomeViewController.h */,
+				63485D481CEB89F500CD7281 /* TMHomeViewController.m */,
 				63485D4A1CEB89F500CD7281 /* Main.storyboard */,
 				63485D4D1CEB89F500CD7281 /* Assets.xcassets */,
 				63485D4F1CEB89F500CD7281 /* LaunchScreen.storyboard */,
@@ -237,7 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63485D491CEB89F500CD7281 /* TMViewController.m in Sources */,
+				63485D491CEB89F500CD7281 /* TMHomeViewController.m in Sources */,
 				63485D461CEB89F500CD7281 /* TMAppDelegate.m in Sources */,
 				630A609A1CEBB1570074AF02 /* TheMilestones.xcdatamodeld in Sources */,
 				630A60A01CEBB2360074AF02 /* TMMilestone.m in Sources */,
